@@ -1,7 +1,8 @@
 import IconMail from "@/assets/icons/IconMail.svg";
 import IconGitHub from "@/assets/icons/IconGitHub.svg";
 import IconBrandX from "@/assets/icons/IconBrandX.svg";
-import IconLinkedin from "@/assets/icons/IconLinkedin.svg";
+import IconBluesky from "@/assets/icons/IconBluesky.svg";
+import IconInstagram from "@/assets/icons/IconInstagram.svg";
 import IconWhatsapp from "@/assets/icons/IconWhatsapp.svg";
 import IconFacebook from "@/assets/icons/IconFacebook.svg";
 import IconTelegram from "@/assets/icons/IconTelegram.svg";
@@ -11,25 +12,25 @@ import { SITE } from "@/config";
 export const SOCIALS = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/cuongnguyen0527",
     linkTitle: ` ${SITE.title} on Github`,
     icon: IconGitHub,
   },
   {
-    name: "X",
-    href: "https://x.com/username",
-    linkTitle: `${SITE.title} on X`,
-    icon: IconBrandX,
+    name: "Bluesky",
+    href: "https://bsky.app/profile/ndcuong.bsky.social",
+    linkTitle: `${SITE.title} on Bluesky`,
+    icon: IconBluesky,
   },
   {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/username/",
-    linkTitle: `${SITE.title} on LinkedIn`,
-    icon: IconLinkedin,
+    name: "Instagram",
+    href: "https://www.instagram.com/nukun27/",
+    linkTitle: `${SITE.title} on Instagram`,
+    icon: IconInstagram,
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:cuong.nguyen0527@gmail.com",
     linkTitle: `Send an email to ${SITE.title}`,
     icon: IconMail,
   },
