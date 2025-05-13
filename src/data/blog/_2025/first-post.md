@@ -1,16 +1,12 @@
 ---
 title: Lời xàm đầu tiên
-author: nukun
+description: Đăng thử bài đầu tiên coi sao.
 pubDatetime: 2025-05-02T08:45:00Z
+author: nukun
 slug: first-post
-featured: true
-draft: false
 tags:
   - first
   - greet
-<!-- ogImage: ../../assets/images/forrest-gump-quote.png -->
-description: Đăng thử bài đầu tiên coi sao.
-<!-- canonicalURL: https://example.org/my-article-was-already-posted-here -->
 ---
 Xin chào tất cả những ai đang đọc bài này. Đây là bài viết đầu tiên cũng như bài
 viết trọng đại nhất của cái blog dẩm này vì nếu không có nó thì làm gì có cái thứ

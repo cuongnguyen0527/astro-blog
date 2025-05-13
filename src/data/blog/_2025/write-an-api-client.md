@@ -1,20 +1,20 @@
 ---
 title: Viết một API client trong Ruby on Rails
-author: nukun
+description: Vừa làm vừa học. Ôn lại cách viết API client trong Ruby on Rails.
 pubDatetime: 2025-05-12T22:15:00Z
-slug: write-an-api-client
+author: nukun
 featured: true
-draft: false
 tags:
   - work
   - api
   - client
   - ruby
   - rails
-<!-- ogImage: ../../assets/images/forrest-gump-quote.png -->
-description: Vừa làm vừa học. Ôn lại cách viết API client trong Ruby on Rails.
+<!-- ogImage: ../../../assets/images/vessel-in-sunset.png -->
 <!-- canonicalURL: https://example.org/my-article-was-already-posted-here -->
 ---
+
+![Con tàu dưới ánh hoàng hôn](@/assets/images/vessel-in-sunset.png)
 
 ## Vấn đề
 Hệ thống tôi đang làm tạm gọi là *DUCK* đi, gọi API bên thứ 3 để lấy lịch trình tàu và dựa vào đó để lên danh sách các ứng cử viên cho kế hoạch kiểm tra. Từ lịch trình sẽ hiển thị 3 thông tin là **port** (cảng), **ETB** (thời gian cập cảng dự kiến) và **ETD** (thời gian rời cảng dự kiến) kèm với vessel code (mã tàu) để liên kết với các tàu đăng ký trong hệ thống. Ngoài các thông tin trên còn hiển thị thêm thời gian kiểm tra tàu gần nhất, dự kiến ngày kiểm tra tiếp theo, VRS (điểm rủi ro của tàu) và yêu cầu từ bên khách hàng. Bảng thông tin này có phân trang, tất cả các cột ngoại trừ `remarks` và yêu cầu của khách hàng đều có thể sắp thứ tự. Có chức năng tìm kiếm theo tên và IMO của tàu, kèm theo checkbox có bật tính năng lọc các con tàu có thời gian kiểm tra dự kiến sau tháng hiện tại. (Giống như là tôi đang kể cả dự án...)
